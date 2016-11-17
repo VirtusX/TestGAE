@@ -1,0 +1,64 @@
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url("/fonts/OpenSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: TitlliumWeb-Regular;
+    src: url('/fonts/TitilliumWeb-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Bitter-Regular;
+    src: url('/fonts/Bitter-Regular.ttf');
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.hierarchy-1 {
+    padding-left: 0 !important;
+}
+
+.hierarchy-2 {
+    padding-left: 5% !important;
+}
+
+.hierarchy-3 {
+    padding-left: 10% !important;
+}
+
+.hierarchy-4 {
+    padding-left: 15% !important;
+}
+
+.hierarchy-5 {
+    padding-left: 20% !important;
+}
+
+#company{
+    position: absolute;
+    margin-top: 10%;
+}
+body{
+    background: url("/1.jpg")no-repeat;
+    background-size: cover;
+    font-family: OpenSans-Regular, serif;
+}
+
+label{
+    font-family: TitlliumWeb-Regular,serif;
+}
+
+h1{
+    font-family: Bitter-Regular,serif;
+}
