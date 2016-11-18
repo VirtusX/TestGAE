@@ -5,6 +5,11 @@ api_version: 1
 threadsafe: true
 
 handlers:
+- url: /(.*\.(htm$|html$|css$|js$|php$))
+  static_files: \1
+  upload: (.*\.(htm$|html$|css$|js$|php$))
+  application_readable: true
+
 - url: /index
   script: index.php
 
