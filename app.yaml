@@ -5,5 +5,21 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: .*
+- url: /index
   script: index.php
+
+- url: /css
+  static_dir: css
+
+- url: /js
+  static_dir: js
+
+- url: /db
+  script: db.php
+
+- url: /list
+  script: list.php
+
+- url: /(.*\.(gif|png|jpg))$
+  static_files: static/\1
+  upload: static/.*\.(gif|png|jpg)$
